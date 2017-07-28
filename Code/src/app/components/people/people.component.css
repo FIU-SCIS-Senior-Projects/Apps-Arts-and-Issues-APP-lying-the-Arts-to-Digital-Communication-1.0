@@ -1,0 +1,72 @@
+.people_container {
+    padding: 50px 0;
+    text-align: center;
+    width: 100%;
+    
+}
+.background_img{
+    background-size: cover;
+    padding-bottom: 500px;
+    max-width: 100%;
+    max-height: 100%;
+    background-repeat: no-repeat;
+}
+
+.row{
+    padding-top: 30px;
+}
+
+.row h1,
+.row hr,
+.row p {
+    color: white;
+}
+
+.content{
+    text-align: left;
+    font-size: 16px;
+}
+
+hr{
+    width: 20%;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+h2{
+    color: #135E98;
+}
+
+#summary{
+    margin-left: 20%;
+    margin-right: 20%;
+    border:1px solid;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.bio-modal{
+    padding:50px;
+}
+
+.results tr[visible='false'],
+.no-result{
+  display:none;
+}
+
+.results tr[visible='true']{
+  display:table-row;
+}
+
+.counter{
+  padding:8px; 
+  color:#ccc;
+}
+
+.table{
+    background-color: #6596BC;
+    opacity: .9;
+}

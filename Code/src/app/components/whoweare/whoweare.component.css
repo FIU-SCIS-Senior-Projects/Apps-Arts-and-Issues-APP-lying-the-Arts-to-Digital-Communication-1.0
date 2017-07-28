@@ -1,0 +1,74 @@
+.who-we-are_container {
+    padding: 50px 0;
+    text-align: center;
+    width: 100%;
+    
+}
+.background_img{
+    background-size: cover;
+    padding-bottom: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    background-repeat: no-repeat;
+}
+
+.row{
+    padding-top: 30px;
+}
+
+.row h1,
+.row hr,
+.row p {
+    color: white;
+}
+
+.content{
+    text-align: left;
+    font-size: 16px;
+}
+
+hr{
+    width: 20%;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+#summary{
+    margin-left: 20%;
+    margin-right: 20%;
+    border:1px solid;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#left{
+    float: left;
+    width:25%;
+}
+
+#center{
+    float: left;
+    width: 50%;
+}
+
+#right{
+    float: left;
+    width: 25%;
+}
+
+#purp, #pled{
+    width: 40%;
+}
+
+.col-md-12:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+
+.col-md-12:active{
+    opacity: .5;
+}
